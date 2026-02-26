@@ -152,7 +152,7 @@ case "${1-}" in
     cat <<EOF
 Usage:
   $(basename "$0") u|up       [1|2|3]
-  $(basename "$0") d|down     [1|2|3]
+  $(basename "$0") d|down
   $(basename "$0") r|restart  [1|2|3]
   $(basename "$0") s|status
   $(basename "$0") refresh
